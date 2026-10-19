@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "OLED_BareMetal_Driver",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assignment1"
+	}
+}
