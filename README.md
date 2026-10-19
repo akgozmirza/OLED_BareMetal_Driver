@@ -38,8 +38,8 @@ Communication is handled by writing directly to the AVR TWI hardware registers:
 
 ### 2. Control Byte Logic
 SSD1306 distinguishes incoming data using a **Control Byte**:
-- `0x00` $\rightarrow$ Command Mode ($D/C\# = 0$)
-- `0x40` $\rightarrow$ Data Mode ($D/C\# = 1$)
+- `0x00`  Command Mode 
+- `0x40`  Data Mode 
 
 ### 3. Font & Text Rendering
 - **GDDRAM Structure:** SSD1306 uses vertical page addressing where 1 data byte represents an 8-pixel vertical column.
